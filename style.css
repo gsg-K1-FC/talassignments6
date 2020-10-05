@@ -11,15 +11,18 @@
     width: 30%;
 float: left;
 background-color:#544F53;
-position: relative;
+
 }
 .parent .part img {
     width: 300px;
 height: 250px;
  margin: 40px; 
 }
-
-.parent .part .t {
+.parent .part .image-container 
+{
+    position: relative;
+}
+.parent .part .image-container .t {
     position: absolute;
     top: 40px;
     left: 80px;
