@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.parent {
+    color: white;
+   font-family: 'Nunito Sans', sans-serif;
+}
+.parent .part {
+    width: 30%;
+float: left;
+background-color:#544F53;
+
+}
+.parent .part img {
+    width: 300px;
+height: 250px;
+ margin: 40px; 
+}
+.parent .part .image-container 
+{
+    position: relative;
+}
+.parent .part .image-container .t {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    
+    background-color: #AB1F83;
+    width: 20px;
+}
